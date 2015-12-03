@@ -1,6 +1,6 @@
 {
   "name": "err",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A tiny library to create custom errors in JavaScript.",
   "main": "lib/index.js",
   "directories": {
