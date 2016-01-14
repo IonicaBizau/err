@@ -1,8 +1,8 @@
 [![err](http://i.imgur.com/yQF0uDO.png)](#)
 
-# err [![Support this project][donate-now]][paypal-donations]
+# err [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A tiny library to create custom errors in JavaScript.
+> A tiny library to create custom errors in JavaScript.
 
 ## Installation
 
@@ -89,7 +89,11 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`argon`](http://github.com/TrevorBurnham/argon) by Trevor Burnham
 
+ - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)
+
  - [`engine-comp-crud-errors`](https://github.com/jillix/engine-comp-errors#readme) by jillix
+
+ - [`engine-composition-adapter`](https://github.com/jillix/engine-composition-adapter#readme) by jillix
 
  - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)
 
