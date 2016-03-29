@@ -1,13 +1,14 @@
-// Dependencies
+"use strict";
+
 const Err = require("../lib");
 
 // Basic usage
-var e1 = new Err("Some nasty stuff happened");
+let e1 = new Err("Some nasty stuff happened");
 console.log(e1);
 // => [Error: Some nasty stuff happened]
 
 // Provide the error code
-var e2 = new Err("Some nasty stuff happened", "NASTY_STUFF_HAPPENED");
+let e2 = new Err("Some nasty stuff happened", "NASTY_STUFF_HAPPENED");
 console.log(e2);
 // => {
 //   [Error: Some nasty stuff happened]
@@ -15,7 +16,7 @@ console.log(e2);
 // }
 
 // Provide the error code and some data
-var e3 = new Err("Some nasty stuff happened", "NASTY_STUFF_HAPPENED", {
+let e3 = new Err("Some nasty stuff happened", "NASTY_STUFF_HAPPENED", {
     additional: "data"
 });
 console.log(e3);
@@ -26,11 +27,11 @@ console.log(e3);
 // }
 
 // Provide the error data (including the code as well)
-var e3 = new Err("Some nasty stuff happened", {
+let e4 = new Err("Some nasty stuff happened", {
     additional: "data"
   , code: "NASTY_STUFF_HAPPENED"
 });
-console.log(e3);
+console.log(e4);
 // => {
 //   [Error: Some nasty stuff happened]
 //   additional: 'data'
@@ -38,15 +39,29 @@ console.log(e3);
 // }
 
 // Wrap an existing error
-var existingError = new Error("Some nasty stuff happened");
-var e4 = new Err(existingError, {
+let existingError = new Error("Some nasty stuff happened");
+let e5 = new Err(existingError, {
     additional: "data"
   , code: "NASTY_STUFF_HAPPENED"
   , and: "some more data"
 });
-console.log(e4);
+console.log(e5);
 // => {
 //   [Error: Some nasty stuff happened]
+//   additional: 'data'
+// , code: 'NASTY_STUFF_HAPPENED'
+// , and: 'some more data'
+// }
+
+let e6 = new Err({
+    message: "Something went really wrong!!!"
+  , additional: "data"
+  , code: "NASTY_STUFF_HAPPENED"
+  , and: "some more data"
+});
+console.log(e6);
+// => {
+//   [Error: Something went really wrong!!!]
 //   additional: 'data'
 // , code: 'NASTY_STUFF_HAPPENED'
 // , and: 'some more data'
