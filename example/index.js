@@ -66,3 +66,9 @@ console.log(e6);
 // , code: 'NASTY_STUFF_HAPPENED'
 // , and: 'some more data'
 // }
+
+let e7 = new Err("Invalid option '<option>'.", {
+    option: "test"
+});
+console.log(e7);
+// { [Error: Invalid option 'test'.] option: 'test' }
