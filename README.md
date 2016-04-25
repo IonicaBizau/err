@@ -1,20 +1,22 @@
+
 [![err](http://i.imgur.com/yQF0uDO.png)](#)
 
 # err [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A tiny library to create custom errors in JavaScript.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save err
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const Err = require("err");
 
 // Basic usage
@@ -81,9 +83,16 @@ console.log(e6);
 // , code: 'NASTY_STUFF_HAPPENED'
 // , and: 'some more data'
 // }
+
+let e7 = new Err("Invalid option '<option>'.", {
+    option: "test"
+});
+console.log(e7);
+// { [Error: Invalid option 'test'.] option: 'test' }
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `Err(error, code, data)`
 Create a custom error object.
@@ -96,31 +105,29 @@ Create a custom error object.
 #### Return
 - **Error** The custom `Error` instance.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`argon`](http://github.com/TrevorBurnham/argon) by Trevor Burnham
 
- - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)
+ - [`argon`](http://github.com/TrevorBurnham/argon) (by Trevor Burnham)—Function argument processing and validation
+ - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)—Logging library based on flat colors and Emoji.
+ - [`engine-comp-crud-errors`](https://github.com/jillix/engine-comp-errors#readme) (by jillix)—Errors for the CRUD modules.
+ - [`engine-composition-adapter`](https://github.com/jillix/engine-composition-adapter#readme) (by jillix)—The base composition adapter class.
+ - [`find-file-in-dirs`](https://github.com/IonicaBizau/find-file-in-dirs#readme)—Find a file in different directories.
+ - [`git-package-json`](https://github.com/IonicaBizau/git-package-json#readme)—Get the package.json contents from git repositories.
+ - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
+ - [`love-you`](https://github.com/IonicaBizau/love-you#readme)—"I love you" in different languages.
+ - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)—A friendlier wrapper around the lwip library.
+ - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
+ - [`validify`](https://github.com/IonicaBizau/validify#readme)—Validation made easy.
 
- - [`engine-comp-crud-errors`](https://github.com/jillix/engine-comp-errors#readme) by jillix
-
- - [`engine-composition-adapter`](https://github.com/jillix/engine-composition-adapter#readme) by jillix
-
- - [`git-package-json`](https://github.com/IonicaBizau/git-package-json#readme)
-
- - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)
-
- - [`love-you`](https://github.com/IonicaBizau/love-you#readme)
-
- - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)
-
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)
-
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
