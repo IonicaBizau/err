@@ -1,7 +1,9 @@
 
 [![err](http://i.imgur.com/yQF0uDO.png)](#)
 
-# err [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# err
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A tiny library to create custom errors in JavaScript.
 
@@ -123,6 +125,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
  - [`love-you`](https://github.com/IonicaBizau/love-you#readme)—"I love you" in different languages.
  - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)—A friendlier wrapper around the lwip library.
+ - [`scrape-it`](https://github.com/IonicaBizau/scrape-it#readme)—A Node.js scraper for humans.
  - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
  - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
  - [`validify`](https://github.com/IonicaBizau/validify#readme)—Validation made easy.
