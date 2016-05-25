@@ -112,23 +112,6 @@ Create a custom error object.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`argon`](http://github.com/TrevorBurnham/argon) (by Trevor Burnham)—Function argument processing and validation
- - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)—Logging library based on flat colors and Emoji.
- - [`engine-comp-crud-errors`](https://github.com/jillix/engine-comp-errors#readme) (by jillix)—Errors for the CRUD modules.
- - [`engine-composition-adapter`](https://github.com/jillix/engine-composition-adapter#readme) (by jillix)—The base composition adapter class.
- - [`find-file-in-dirs`](https://github.com/IonicaBizau/find-file-in-dirs#readme)—Find a file in different directories.
- - [`git-package-json`](https://github.com/IonicaBizau/git-package-json#readme)—Get the package.json contents from git repositories.
- - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
- - [`love-you`](https://github.com/IonicaBizau/love-you#readme)—"I love you" in different languages.
- - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)—A friendlier wrapper around the lwip library.
- - [`scrape-it`](https://github.com/IonicaBizau/scrape-it#readme)—A Node.js scraper for humans.
- - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
- - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
- - [`validify`](https://github.com/IonicaBizau/validify#readme)—Validation made easy.
 
 ## :scroll: License
 
