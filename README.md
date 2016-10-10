@@ -3,7 +3,7 @@
 
 # err
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][paypal-donations] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A tiny library to create custom errors in JavaScript.
 
@@ -112,11 +112,40 @@ Create a custom error object.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :moneybag: Donations
+
+Another way to support the development of my open-source modules is
+to [set up a recurring donation, via Patreon][patreon]. :rocket:
+
+[PayPal donations][paypal-donations] are appreciated too! Each dollar helps.
+
+Thanks! :heart:
+
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`argon`](http://github.com/TrevorBurnham/argon) (by Trevor Burnham)—Function argument processing and validation
+ - [`emoji-logger`](https://github.com/IonicaBizau/emoji-logger#readme)—Logging library based on flat colors and Emoji.
+ - [`engine-comp-crud-errors`](https://github.com/jillix/engine-comp-errors#readme) (by jillix)—Errors for the CRUD modules.
+ - [`engine-composition-adapter`](https://github.com/jillix/engine-composition-adapter#readme) (by jillix)—The base composition adapter class.
+ - [`find-file-in-dirs`](https://github.com/IonicaBizau/find-file-in-dirs#readme)—Find a file in different directories.
+ - [`fs-repo-url`](https://github.com/IonicaBizau/fs-repo-url#readme)—Get the repository url from a path to a repo.
+ - [`gh-fork-source`](https://github.com/IonicaBizau/gh-fork-source#readme)—Get the source repository of a GitHub fork.
+ - [`git-package-json`](https://github.com/IonicaBizau/git-package-json#readme)—Get the package.json contents from git repositories.
+ - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
+ - [`love-you`](https://github.com/IonicaBizau/love-you#readme)—"I love you" in different languages.
+ - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)—A friendlier wrapper around the lwip library.
+ - [`scrape-it`](https://github.com/IonicaBizau/scrape-it#readme)—A Node.js scraper for humans.
+ - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
+ - [`tilda`](https://github.com/IonicaBizau/tilda)—Tiny module for building command line tools.
+ - [`validify`](https://github.com/IonicaBizau/validify#readme)—Validation made easy.
 
 ## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
+[patreon]: https://www.patreon.com/ionicabizau
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
