@@ -12,7 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save err
+# Using npm
+npm install --save err
+
+# Using yarn
+yarn add err
 ```
 
 
