@@ -103,7 +103,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
@@ -162,6 +164,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`image-parser`](https://github.com/IonicaBizau/image-parser#readme)—An image parser that works.
  - [`love-you`](https://github.com/IonicaBizau/love-you#readme)—"I love you" in different languages.
  - [`lwip2`](https://github.com/IonicaBizau/lwip2#readme)—A friendlier wrapper around the lwip library.
+ - [`payiota`](https://github.com/arizona2014/node-payiota#readme) (by Andy Lisac)—A Node.js wrapper around the Payiota.me API.
  - [`scrape-it`](https://github.com/IonicaBizau/scrape-it#readme)—A Node.js scraper for humans.
  - [`showalicense.com`](https://github.com/IonicaBizau/showalicense.com#readme)—A site to provide an easy way to show licenses and their human-readable explanations.
  - [`stringify-env`](https://github.com/Bloggify/stringify-env#readme) (by Bloggify)—Create files storing environment variables.
