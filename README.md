@@ -21,7 +21,7 @@
 
 # err
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/err.svg)](https://www.npmjs.com/package/err) [![Downloads](https://img.shields.io/npm/dt/err.svg)](https://www.npmjs.com/package/err) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -160,6 +160,7 @@ console.log(e7);
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -169,6 +170,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -242,50 +245,66 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `scrape-it`
- - `tilda`
- - `emoji-logger`
- - `@sphinxdoc/core`
- - `bloggify-adapter`
- - `python-env`
- - `image-parser`
- - `validated-base`
- - `find-file-in-dirs`
+ - `@alexhelloworld/common`
  - `@asserted/models`
- - `git-package-json`
- - `multithread-config`
  - `@ecosystem/config`
- - `mocha-ldjson`
+ - `@ecosystem/core`
+ - `@gatsbydoc/cli`
+ - `@gatsbydoc/core`
+ - `@gatsbydoc/sphinx`
+ - `@lifexcoder/lfx`
+ - `@lifexcoder/tfx`
+ - `@reactant/react-router`
+ - `@slikts/scrape-it`
+ - `@sphinxdoc/cli`
+ - `@sphinxdoc/core`
+ - `@ywzhaiqi/scrape-it-core`
+ - `angularvezba`
+ - `asrtd`
+ - `bloggify-adapter`
+ - `check-params`
+ - `cronalarm`
+ - `do-task`
+ - `dotstow`
+ - `emoji-logger`
  - `engine-comp-crud-errors`
  - `engine-composition-adapter`
+ - `find-file-in-dirs`
  - `fs-repo-url`
  - `gh-fork-source`
- - `lwip2`
- - `validify`
- - `sphinxdoc`
- - `@gatsbydoc/core`
- - `simple-cached-firestore`
- - `payiota`
- - `stringify-env`
- - `scrape-it-plus`
- - `@slikts/scrape-it`
- - `do-task`
- - `check-params`
- - `love-you`
- - `showalicense.com`
- - `@sphinxdoc/cli`
- - `trace-breaking-change`
- - `@reactant/react-router`
- - `@gatsbydoc/sphinx`
- - `@gatsbydoc/cli`
- - `vkbeautify-cli`
- - `dotstow`
- - `ts-gir`
- - `simple-cached-datastore`
+ - `git-package-json`
  - `git-sync-all`
- - `@ecosystem/core`
- - `asrtd`
  - `hunarcourses`
+ - `image-parser`
+ - `jrbfdsd-swap`
+ - `love-you`
+ - `lwip2`
+ - `markdownalint-cli2`
+ - `mocha-ldjson`
+ - `multithread-config`
+ - `nhombchieu2`
+ - `payiota`
+ - `python-env`
+ - `react-native-dynamic-textinput`
+ - `scrape-it-core`
+ - `scrape-it-plus`
+ - `scraped-core`
+ - `show-a-license`
+ - `showalicense.com`
+ - `simple-cached-datastore`
+ - `simple-cached-firestore`
+ - `songtracker-pro`
+ - `sphinxdoc`
+ - `stringify-env`
+ - `tilda`
+ - `tools_may_24`
+ - `trace-breaking-change`
+ - `ts-gir`
+ - `validated-base`
+ - `validify`
+ - `vkbeautify-cli`
+ - `vn-react-image-pan-zoom-rotate`
+ - `yc-drag`
 
 
 
